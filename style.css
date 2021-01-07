@@ -1,0 +1,61 @@
+
+
+li {font-family: arial,sans-serif;
+    font-size: 13px; list-style: none; display: inline-block;}
+    
+    nav {text-align: right; padding-right: 160px; word-spacing: 20px;}
+    
+    #userName {opacity: .55;}
+    
+    a, a:visited {color: black; text-decoration: none;}
+    
+    a:hover {text-decoration: underline;}
+    
+    img, #searchBox {display: block;
+    margin-left: auto;
+    margin-right: auto;}
+    
+    img {margin-top: 100px}
+    
+    #googleSearch {display: inline-block; margin-left: 400px;
+    margin-right: auto;}
+    #feelingLucky {display: inline-block; }
+
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%
+    }
+    
+    footer{
+        background-color: #F4F6F7;
+        height: 25px;
+    
+    }
+    
+    hr{
+        border-color: #CCD1D1;
+        margin-bottom: 0px;
+    }
+    
+    .advertising, .business, .about, .privacy, .terms, .settings{
+        color: #909497;
+        font-size: 1.0em;
+        margin-top: 10px;           
+    
+    }
+
+    .advertising, .business, .about{
+        margin-left: 40px;
+    }
+    
+    
+    .privacy, .terms, .settings{
+        margin-right: 40px;
+        float: right;
+    
+    }   
+    
