@@ -1,5 +1,27 @@
 
 
+      section {
+        position: relative;
+        width: 50%;
+        border: 1px solid;
+        float:left;
+    }
+    h1 {
+        display: block;
+        width:70%;
+        float:left;
+    }
+    button
+    {
+        position:relative;
+        top:0;
+        left:0;
+        float:left;
+    }
+    
+    ​
+li a:hover{background-color: teal;
+            color: white;}
 li {font-family: arial,sans-serif;
     font-size: 13px; list-style: none; display: inline-block;}
     
@@ -17,7 +39,7 @@ li {font-family: arial,sans-serif;
     
     img {margin-top: 100px}
     
-    #googleSearch {display: inline-block; margin-left: 400px;
+    #googleSearch {display: inline-block; margin-left: 550px;
     margin-right: auto;}
     #feelingLucky {display: inline-block; }
 
