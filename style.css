@@ -1,83 +1,147 @@
+#left
+{
+    display:flex;
+    justify-content: flex-end;
+    margin-top:20px;
+}
 
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline; 
+}
+#left a 
+{
+    margin-right:20px;
+}
+body
+{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+}
+#left a.topimage {
+    width:20px;
+    height:20px;
+    background-color:rgb(11, 33, 236);
+    border-radius: 10px;
+}
+#left img {
+    width: 20px;
+    height: 20px;
+     
+}
+img{
+    width:50%;
+    height:50%;
+}
+#middle {
+    #margin-top: 100px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center
 
-      section {
-        position: relative;
-        width: 50%;
-        border: 1px solid;
-        float:left;
-    }
-    h1 {
-        display: block;
-        width:70%;
-        float:left;
-    }
-    button
-    {
-        position:relative;
-        top:0;
-        left:0;
-        float:left;
-    }
-    
-    ​
-li a:hover{background-color: teal;
-            color: white;}
-li {font-family: arial,sans-serif;
-    font-size: 13px; list-style: none; display: inline-block;}
-    
-    nav {text-align: right; padding-right: 160px; word-spacing: 20px;}
-    
-    #userName {opacity: .55;}
-    
-    a, a:visited {color: black; text-decoration: none;}
-    
-    a:hover {text-decoration: underline;}
-    
-    img, #searchBox {display: block;
-    margin-left: auto;
-    margin-right: auto;}
-    
-    img {margin-top: 100px}
-    
-    #googleSearch {display: inline-block; margin-left: 550px;
-    margin-right: auto;}
-    #feelingLucky {display: inline-block; }
+}
+#logo {
+    text-align:center; 
+    height:70%;
+    width: 70%;
+ 
+}
 
+#searchbarcontainer {
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+}
 
-
-.footer{
+#search, #voice{
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%
-    }
-    
-    footer{
-        background-color: #F4F6F7;
-        height: 25px;
-    
-    }
-    
-    hr{
-        border-color: #CCD1D1;
-        margin-bottom: 0px;
-    }
-    
-    .advertising, .business, .about, .privacy, .terms, .settings{
-        color: #909497;
-        font-size: 1.0em;
-        margin-top: 10px;           
-    
-    }
+    top:0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    left:10px;
+}
+#voice,#img{
+    right:10px;
+    width:20px;
+    height:20px;
+    top:10px;
 
-    .advertising, .business, .about{
-        margin-left: 40px;
-    }
+}
+#searchbar{
+    padding-top:10px;
+    padding-bottom:10px;
+    outline:0;
+    width:500px;
+    padding-left: 30px;
+    padding-right: 15px;
+    border-radius:15px;
+    border:1px solid #c4c4c4;
+}
+
+#searchbar:hover{
+    box-shadow: 0 0 10px 2px black; 
+}
+#buttons{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+.button{
+    margin-left: 10px;
+    margin-right:10px;
+    padding: 5px 10px;
+    cursor:pointer;
+    border-radius: 3px;
+    background: rgb(231, 231, 231);
+    border: 2px solid transparent;
+}
+.button:hover{
+    box-shadow: 0 0 2px 1px;
+    border: 2px solid #eee;
+}
+#links {
+    margin-top: 20px;
+    text-align: center;
+   
+}
+.links {
+    line-height: 45px;
+    display: inline-block;
+}
+
+html,body{
+    margin:0;
+    height: 100%;
+}
+#footer-content {
+    background: #eee;
+    border-top: 1px solid black;
+   margin-top: 10px;
     
-    
-    .privacy, .terms, .settings{
-        margin-right: 40px;
-        float: right;
-    
-    }   
-    
+}
+
+
+#last {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    word-spacing: 5px;
+}
+.top {
+    height: 20px;
+    width: 20px;
+    margin-left: 90%;
+    justify-content: flex-end;
+}
+#we {
+    margin-left: 60%;
+    justify-content: flex-end;
+}
